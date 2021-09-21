@@ -1,4 +1,4 @@
-# Python-AFWA diagnostics for caculating enviromental conditions from WRFOUT
+# Python-AFWA offline diagnostic package for caculating enviromental conditions from WRFOUT
 # Copy module_diag_functions.f90 and recalc_wrfout.py to the same working directory
 # Run Linux command: python -m numpy.f2py -c module_diag_functions.f90 -m diag_functions to add diagnostic functions to numpy.f2py
 
