@@ -1,5 +1,6 @@
-# Run on linux command first: python -m numpy.f2py -c module_diag_functions.f90 -m diag_functions 
-
+# Python-AFWA diagnostics for caculating enviromental conditions from WRFOUT
+# Copy module_diag_functions.f90 in the same working directory with recalc_wrfout.py
+# Run Linux command: python -m numpy.f2py -c module_diag_functions.f90 -m diag_functions to add diagnostic functions to numpy.f2py
 
 from multiprocessing import Pool
 import numpy as np
