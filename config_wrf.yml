@@ -1,0 +1,15 @@
+---
+# WRF input data directory
+indir: '/global/cscratch1/sd/feng045/SAAG/June2018_May2019_nsp/wrfout/'
+# Output diagnostic data directory
+outdir: '/global/cscratch1/sd/feng045/SAAG/June2018_May2019_nsp/envs/'
+# WRF intput filenames
+file_basename: 'wrfout_d01_2018-06-03*'
+# Output diagnostic file basename
+outbasename: 'wrfdiag_'
+# Parallel processing set up (1: parallel, 0: serial)
+run_parallel: 1
+# Number of processors (larger number results in less memory)
+n_workers: 10
+# Number of threads (recommend value: 1)
+threads_per_worker: 1
