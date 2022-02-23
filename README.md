@@ -16,7 +16,7 @@ Run Linux command: "python -m numpy.f2py -c module_diag_functions.f90 -m diag_fu
 
 afwa.diag_functions.diag_map and afwa.diag_functions.diag_row return the 2-D diagnostic map and row, respectively.
 
-When the model domain is larger, subrountine diag_row is recommended to be used with proper parallelization.
+If the analysis domain is large, subrountine diag_row is recommended to be used with proper parallelization.
 
 # Contact:
 
