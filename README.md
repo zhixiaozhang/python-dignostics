@@ -2,9 +2,9 @@
 
 Calculate enviromental conditions offline using history output from Weather Research and Forecasting (WRF) model
 
-Example1: recalc_wrfout.py Perform calculation and write them into a seperate files
+Example1: recalc_wrfout.py Perform calculation and write them into a seperate file
 
-Example2: calc_wrfout.py Perform calculation and attach them into input model output files
+Example2: calc_wrfout.py Perform calculation and attach them into the input file
 
 # Compile Fortran Module: 
 
