@@ -1,5 +1,3 @@
-# python-dignostics
-
 # Python-AFWA diagnostic package for caculating enviromental conditions offline using history output from Weather Research and Forecasting (WRF) model
 
 Example1: recalc_wrfout.py Perform calculation and write them into a seperate files
