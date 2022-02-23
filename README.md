@@ -6,7 +6,7 @@ Example1: recalc_wrfout.py Perform calculation and write them into a seperate fi
 
 Example2: calc_wrfout.py Perform calculation and attach them into input model output files
 
-# Compile fortran model and add it to numpy: 
+# Compile Fortran Module: 
 
 Copy module_diag_functions.f90 and recalc_wrfout.py calc_wrfout.py in the same working directory
 
