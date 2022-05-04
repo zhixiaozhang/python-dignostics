@@ -14,7 +14,7 @@ Run Linux command: "python -m numpy.f2py -c module_diag_functions.f90 -m diag_fu
 
 afwa.diag_functions.diag_map computes 2-D maps of mucape, mucin, lcl, lfc, el, and lpl from input (z, y, x) temperature, RH, pressure, and ASL height.
 
-afwa.diag_functions.diag_vector computes 1-D vector of mucape, mucin, lcl, lfc, el, and lpl from input (z, x) temperature, RH, pressure, and ASL height.
+afwa.diag_functions.diag_row computes 1-D vector of mucape, mucin, lcl, lfc, el, and lpl from input (z, x) temperature, RH, pressure, and ASL height.
 
 # Notes: 
 
