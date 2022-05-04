@@ -12,6 +12,10 @@ Copy module_diag_functions.f90 and recalc_wrfout.py calc_wrfout.py in the same w
 
 Run Linux command: "python -m numpy.f2py -c module_diag_functions.f90 -m diag_functions" to add diagnostic functions to numpy.f2py
 
+afwa.diag_functions.diag_map computes 2-D maps of mucape, mucin, lcl, lfc, el, and lpl from input (z, y, x) temperature, RH, pressure, and ASL height.
+
+afwa.diag_functions.diag_vector computes 1-D vector of mucape, mucin, lcl, lfc, el, and lpl from input (z, x) temperature, RH, pressure, and ASL height.
+
 # Notes: 
 
 afwa.diag_functions.diag_map and afwa.diag_functions.diag_row return the 2-D diagnostic map and row, respectively.
