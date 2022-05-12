@@ -16,6 +16,10 @@ afwa.diag_functions.diag_map computes 2-D maps of mucape, mucin, lcl, lfc, el, a
 
 afwa.diag_functions.diag_row computes 1-D vector of mucape, mucin, lcl, lfc, el, and lpl from input (z, x) temperature, RH, pressure, and ASL height
 
+afwa.diag_functions.diag_map or diag_row (tk,rh,p,hgt,1,1) compute the enviroments with parcel lifted from the most unstable layer.
+
+afwa.diag_functions.diag_map or diag_row (tk,rh,p,hgt,0,1) compute the enviroments with parcel lifted from surface.
+
 # Notes
 
 afwa.diag_functions.diag_map and afwa.diag_functions.diag_row return the 2-D diagnostic map and row, respectively.
