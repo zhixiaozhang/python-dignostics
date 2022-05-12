@@ -33,3 +33,7 @@ Code is modified from AFWA module in WRF model
 # Contact
 
 zhixiao.zhang@utah.edu, 2021/09/21
+
+# Acknowledgement
+
+Drs. Adam Varble and Feng Zhe
