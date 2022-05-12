@@ -12,13 +12,15 @@ Copy module_diag_functions.f90 and recalc_wrfout.py calc_wrfout.py in the same w
 
 Run Linux command: "python -m numpy.f2py -c module_diag_functions.f90 -m diag_functions" to add diagnostic functions to numpy.f2py
 
+# Call Fortran Module in Python
+
 afwa.diag_functions.diag_map computes 2-D maps of mucape, mucin, lcl, lfc, el, and lpl from input (z, y, x) temperature, RH, pressure, and ASL height
 
 afwa.diag_functions.diag_row computes 1-D vector of mucape, mucin, lcl, lfc, el, and lpl from input (z, x) temperature, RH, pressure, and ASL height
 
-afwa.diag_functions.diag_map or diag_row (tk,rh,p,hgt,1,1) calculates the enviroments with parcel lifted from the most unstable layer.
+afwa.diag_functions.diag_map or afwa.diag_functions.diag_row (tk,rh,p,hgt,1,1) calculates the enviroments with parcel lifted from the most unstable layer.
 
-afwa.diag_functions.diag_map or diag_row (tk,rh,p,hgt,0,1) calculates the enviroments with parcel lifted from surface.
+afwa.diag_functions.diag_map or afwa.diag_functions.diag_row (tk,rh,p,hgt,0,1) calculates the enviroments with parcel lifted from surface.
 
 # Notes
 
