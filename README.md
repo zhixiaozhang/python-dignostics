@@ -2,9 +2,9 @@
 
 Calculate enviromental conditions offline using history output from Weather Research and Forecasting (WRF) model
 
-Example1: recalc_wrfout.py Perform calculation and write them into a seperate file
+Example1: recalc_wrfout.py Calculated lifted parcel paramenters and save them in a seperate file
 
-Example2: calc_wrfout.py Perform calculation and attach them into the input file
+Example2: calc_wrfout.py Calculated lifted parcel paramenters and attach them to the input file
 
 # Compile Fortran Module
 
