@@ -26,7 +26,7 @@ afwa.diag_functions.diag_map or afwa.diag_functions.diag_row (tk,rh,p,hgt,0,1) c
 
 afwa.diag_functions.diag_map and afwa.diag_functions.diag_row return the 2-D diagnostic map and row, respectively.
 
-If the analysis domain is large, subrountine diag_row is recommended to be used with proper parallelization.
+If the analysis domain is overly large, subrountine diag_row is recommended to be used with proper parallelization.
 
 Code is modified from AFWA module in WRF model
 
