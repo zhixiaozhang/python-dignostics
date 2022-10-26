@@ -1,6 +1,6 @@
 # Python-AFWA Diagnostic Package
 
-Calculate enviromental conditions offline using history output from Weather Research and Forecasting (WRF) model
+Calculate enviromental conditions offline using the history output from the Weather Research and Forecasting (WRF) model
 
 Example1: recalc_wrfout.py Calculated lifted parcel paramenters and save them in a seperate file
 
