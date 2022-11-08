@@ -36,4 +36,4 @@ zhixiao.zhang@utah.edu, 2021/09/21
 
 # Acknowledgement
 
-Drs. Adam Varble and Feng Zhe
+Drs. Adam Varble and Zhe Feng
