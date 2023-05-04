@@ -34,6 +34,6 @@ Code is modified from AFWA module in WRF model
 
 zhixiao.zhang@utah.edu, 2021/09/21
 
-# Acknowledgement
+# Collaborators
 
 Drs. Adam Varble and Zhe Feng
