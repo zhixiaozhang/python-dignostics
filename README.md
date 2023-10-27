@@ -32,7 +32,7 @@ Code is modified from AFWA module in WRF model
 
 # Contact
 
-zhixiao.zhang@utah.edu, 2021/09/21
+zhixiao.zhang@physics.ox.ac.uk, 2021/09/21
 
 # Collaborators
 
